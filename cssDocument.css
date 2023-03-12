@@ -1,0 +1,223 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+Body {
+    background-image: url("img/jason-leung-poI7DelFiVA-unsplash.jpg");
+    background-size: cover;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    opacity: 0.9;
+}
+
+.imageFolder{
+    background-image: url("img/maria-orlova-oMTlhdFUhdI-unsplash.jpg");
+    background-size: cover;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+.myHead {
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    margin-bottom: 200px;
+    z-index: 2;
+}
+
+.myHeader.myLogo {
+    padding: 5px 100px;
+    position: sticky;
+    top: 0;
+    left: 0;
+
+}
+
+.myHead,
+.myLogo {
+    position: relative;
+    font-weight: 700;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: 0.3s;
+}
+
+.myHead,
+.myNavbar {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.myHead,
+.myNavbar,
+.navLi {
+    position: relative;
+    list-style: none;
+}
+
+.myHead,
+.myNavbar,
+.navLi,
+a {
+    
+    position: sticky;
+    margin: 0 15px;
+    text-decoration: none;
+    color: #fff;
+    letter-spacing: 2px;
+    font-weight: 500px;
+    background-color: transparent;
+}
+
+.myHead,
+.myNavbar,
+.navLi,
+a:hover {
+    color: orange;
+}
+
+#searchBar{
+    position: fixed;
+    z-index: 1;
+}
+
+.container {
+    height: 70%;
+}
+
+.heading {
+    padding-left: 20px;
+    padding-top: 5px;
+    height: 70%;
+    color: white;
+    background-color: transparent;
+    text-decoration: underline;
+    justify-content: space-between;
+    position: sticky;
+    top: 120px;
+    z-index: 0;
+}
+
+.heading:hover{
+    color: yellow;
+}
+
+.imageList {
+    border: 3px solid white;
+    height: 230px;
+    width: 200px;
+}
+
+.imageBox {
+    display: inline-flex;
+    gap: 15px;
+    margin-top: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.imageBox1 {
+    bottom: 0;
+    position: flex;
+    margin-left: 30px;
+    padding-top: 10px;
+    display: flex;
+    color: white;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: all 0.5s ease-in-out;
+}
+
+.imageBox1:hover {
+    color: yellow;
+    transition: 0.3s;
+}
+
+.innerImage {
+    height:200px;
+    width: 200px;
+}
+
+.orderList {
+    padding-bottom: 20px;
+    margin: 10px 10px;
+    display: fixed;
+    color: transparent;
+
+}
+
+.orderList:hover {
+    color: red;
+    transition: 1s;
+}
+
+.myOrder {
+    width: 50px;
+    background-color: transparent;
+    border: none;
+}
+
+.myOrder:hover {
+    background-color: white;
+    transition: 0.2s;
+}
+
+
+.name {
+    color: transparent;
+    text-align: center;
+}
+
+.name:hover {
+    color: orange;
+}
+
+.name:visited {
+    color: blue;
+}
+
+
+.homePageText{
+    color: orange;
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.getStarted{
+    margin-top: 25%;
+    margin-left: 50%;
+    background-color: orange;
+    border: 0;
+    height: 30px;
+    width: 100px;
+    color: white;
+}
+
+.orderNow{
+    margin-top: 5%;
+    margin-left: 50%;
+    background-color: orange;
+    border: 0;
+    height: 30px;
+    width: 100px;
+    color: white;
+}
